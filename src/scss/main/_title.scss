@@ -29,6 +29,6 @@
 
 @media (min-width: $breakpoint-xl) {
   .title__text {
-    border-right: 1px solid #d9fff5;
+    border-right: 1px solid $shadow-color;
   }
 }
