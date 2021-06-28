@@ -14,19 +14,21 @@
 }
 
 @media (min-width: $breakpoint-m) {
-  .title {
-    &__text {
-      margin: 0 auto;
-      padding: 16px 24px;
-    }
+  .title__text {
+    margin: 0 auto;
+    padding: 16px 24px;
   }
 }
 
 @media (min-width: $breakpoint-l) {
-  .title {
-    &__text {
-      margin: 0 auto;
-      padding: 16px 32px;
-    }
+  .title__text {
+    margin: 0 auto;
+    padding: 16px 32px;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .title__text {
+    border-right: 1px solid #d9fff5;
   }
 }
