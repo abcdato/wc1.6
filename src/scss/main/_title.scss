@@ -1,0 +1,32 @@
+.title {
+  border-top: 1px solid #d9fff5;
+  background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+  &__text {
+    margin: 0;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: $btn-text-color;
+  }
+}
+
+@media (min-width: $breakpoint-m) {
+  .title {
+    &__text {
+      margin: 0 auto;
+      padding: 16px 24px;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-l) {
+  .title {
+    &__text {
+      margin: 0 auto;
+      padding: 16px 32px;
+    }
+  }
+}
